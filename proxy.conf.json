@@ -1,0 +1,9 @@
+{
+  "/api": {
+    "target": "https://simple-grocery-store-api.online",
+    "pathRewrite": { "^/api": "" },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
