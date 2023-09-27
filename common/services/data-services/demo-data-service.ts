@@ -9,7 +9,7 @@ import { API_URL } from "common/constants/app-constants";
 })
 export class DemoDataService extends DataService<DemoModel> {
     constructor(http: HttpService) {
-        super(API_URL.login, http);
+        super(API_URL.jboss, http);
     }
 
     createInstance(): DemoModel {

@@ -12,5 +12,5 @@ export enum PAGE_CONFIG {
 
 export enum API_URL {
     default = '',
-    login = '/products'
+    jboss = '/kotakdemo/user/getall'
 }

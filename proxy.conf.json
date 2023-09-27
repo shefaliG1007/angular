@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://simple-grocery-store-api.online",
+    "target": "http://jboss_backend:4200",
     "pathRewrite": { "^/api": "" },
     "secure": false,
     "changeOrigin": true,
